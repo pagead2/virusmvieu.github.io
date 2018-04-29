@@ -1,13 +1,13 @@
 <html>
    <head>
-
+<script>
    function iframeclick() {
 document.getElementById("theiframe").contentWindow.document.body.onclick = function() {
         document.getElementById("theiframe").contentWindow.location.reload();
     }
 }
 
-
+      </script>
 <iframe id="theiframe" src"https://www.instagram.com/p/BiE-gx6hFAY/embed" style="width: 100px; height: 100px;" onload="iframeclick()"></iframe>
       
    </head>
